@@ -144,3 +144,46 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.index {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: 2% 0 0;
+}
+
+
+
+
+.index .lambda{
+    /*border: 1px solid grey;*/
+    margin: 0 10% 0 0;
+}
+
+.index nav {
+    width: 65%;
+
+}
+
+.hlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*border: 1px solid grey; */
+}
+
+.index a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.jumbo img {
+    margin: 5% 0 2%;
+}
