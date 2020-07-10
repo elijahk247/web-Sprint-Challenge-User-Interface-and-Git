@@ -190,3 +190,50 @@ footer nav a {
     margin: 5% 0 2%;
 }
 
+.intro {
+    /*border: 1px solid grey; */
+    margin: 0 0 5% 2%;
+}
+
+.intro h1 {
+    /*border: 1px solid grey;*/
+}
+
+.intro p {
+    /*border: 1px solid grey;*/
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.middle div {
+    /*border: 1px solid grey; */
+    width: 50%;
+    
+    border-top: 1px dotted black;
+    /*border-bottom: 1px dotted black; */
+
+    padding: 5% 0 5% 0;
+}
+
+.middle a {
+    text-decoration: none;
+    color: black;
+
+    border: 1px solid black;
+    border-radius: 10%;
+
+    margin-top: 15%;
+    padding: 1% 5%;
+}
+
+.closing div {
+    border: 1px solid grey;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
